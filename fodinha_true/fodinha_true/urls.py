@@ -17,7 +17,11 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path, include
 
+# better practice to import the view instead of views file
+from fodinhaApp.views import sample_view
+
 urlpatterns = [
-    path('', include('fodinhaApp.urls')),
+    # ainda n entendi mt bem esse name arg mas nao parece ser crucial
+    path('', sample_view, name='home'),
     path('admin/', admin.site.urls),
 ]

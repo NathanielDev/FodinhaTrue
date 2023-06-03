@@ -54,7 +54,7 @@ ROOT_URLCONF = 'fodinha_true.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': [BASE_DIR, 'templates'],  # correct path to templates folder
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
