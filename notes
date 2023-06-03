@@ -4,3 +4,11 @@ toda vez que alterar o models.py de qualquer app tem que rodar os comandos:
 python3 manage.py makemigration
 python3 manage.py migrate
 ------------------------------------------------------------------------------
+
+-------------------------meu querido dev note---------------------------------
+agora o {{}} do django funcionou (??????) acho que o que a gnt tava tentando
+colocar dentro dessas chaves que era o problema.
+por enquanto só to testando pra printar o usuario e ta funcionando, depois
+a gente tenta alterar pra algo mais complexo (user input *jump scare*) só que
+procurando o comando certo nos doc e nao na maluca da GPT
+------------------------------------------------------------------------------
