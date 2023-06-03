@@ -1,0 +1,10 @@
+##############################################################################################
+
+NA settings.py REABILITAR EM MIDDLEWARE ISSO -> 'django.middleware.csrf.CsrfViewMiddleware',
+(provavelmente porque estamos mandando post pra mesma pagina)
+desculpa nathan e madeira do futuro
+https://stackoverflow.com/questions/17716624/django-csrf-cookie-not-set
+q se fodam vcs dois
+
+##############################################################################################
+

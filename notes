@@ -1,0 +1,6 @@
+-------------------------sobre models-----------------------------------------
+(aparentemente models é mais pra usar junto da database mas isso é importante)
+toda vez que alterar o models.py de qualquer app tem que rodar os comandos:
+python3 manage.py makemigration
+python3 manage.py migrate
+------------------------------------------------------------------------------
