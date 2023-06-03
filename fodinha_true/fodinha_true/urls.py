@@ -18,10 +18,12 @@ from django.contrib import admin
 from django.urls import path, include
 
 # better practice to import the view instead of views file
-from fodinhaApp.views import sample_view
+from fodinhaApp.views import home_view
+from fodinhaApp.views import form_view
 
 urlpatterns = [
     # ainda n entendi mt bem esse name arg mas nao parece ser crucial
-    path('', sample_view, name='home'),
+    path('', home_view, name='home'),
+    path('form', form_view, name='form'),
     path('admin/', admin.site.urls),
 ]

@@ -2,10 +2,10 @@
 <html>
 <body>
 
-<form action="{% url 'my_view' %}" method="POST">
+<form action="" method="post">
     {% csrf_token %}
-    {{ form.as_p }}
-    <button type="submit">Submit</button>
+    {{form}}
+    <input type="submit">
 </form>
 
 </body>

@@ -1,9 +1,8 @@
-from django import forms
+from django.forms import ModelForm
+from .models import tmp_user
 
 
-class MyForm(forms.Form):
-    name = forms.CharField(max_length=100)
-
-    def clean_name(self):
-        name = self.cleaned_data['name']
-        return name
+class user_form(ModelForm):
+    class Meta:
+        model = tmp_user
+        fields = '__all__'  # user fields I want to display
