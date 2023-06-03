@@ -36,9 +36,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'rest_framework',
-    'corsheaders',
-    'fodinha',
+    'fodinhaApp',
 ]
 
 MIDDLEWARE = [
@@ -49,8 +47,6 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
-    'corsheaders.middleware.CorsMiddleware',
-    'django.middleware.common.CommonMiddleware',
 ]
 
 ROOT_URLCONF = 'fodinha_true.urls'
@@ -71,8 +67,6 @@ TEMPLATES = [
     },
 ]
 
-# disable when not using localhost only
-CORS_ORIGIN_ALLOW_ALL = True
 
 WSGI_APPLICATION = 'fodinha_true.wsgi.application'
 
