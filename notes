@@ -11,4 +11,14 @@ colocar dentro dessas chaves que era o problema.
 por enquanto só to testando pra printar o usuario e ta funcionando, depois
 a gente tenta alterar pra algo mais complexo (user input *jump scare*) só que
 procurando o comando certo nos doc e nao na maluca da GPT
+
+pelo visto pra pegar input usando o django é pelo forms mesmo mas usa junto
+de um model do form, a gente não queria usar models porque a gente tava
+falando que isso levaria a usar a database (se eu n me engano a gente tinha
+falado isso) mas pelo o que eu vi é só não dar form.save ou um bglh assim que
+ele não manda pra database
+
+apesar do aclamado MVP aparentemente estar funcionando (pelo menos vejo no
+terminal o que eu coloco no form) a última resquest ta ficando no "buffer"
+e repetindo na nova conexão que é feita (?)
 ------------------------------------------------------------------------------
