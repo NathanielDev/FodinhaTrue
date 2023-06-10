@@ -1,3 +1,15 @@
-    <h1>test home page</h1>
-    {{ request.user }}
-    <p>this is the home page</p>
+<!DOCTYPE html>
+<html>
+    {% load static %}
+    <head>
+        <link rel="stylesheet" type="text/css" href="{% static 'home_styling.css' %}">
+    </head>
+<body>
+
+<h1>test home page</h1>
+{{ request.user }}
+<p>this is the home page</p>
+<p><a href="http://127.0.0.1:8000/form">form submission</a> page</p>
+
+</body>
+</html>

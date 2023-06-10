@@ -1,5 +1,9 @@
 <!DOCTYPE html>
 <html>
+    {% load static %}
+        <head>
+            <link rel="stylesheet" type="text/css" href="{% static 'home_styling.css' %}">
+        </head>
 <body>
 
 <form action="" method="post">
@@ -7,6 +11,8 @@
     {{form}}
     <input type="submit">
 </form>
+
+<p>back to <a href="http://127.0.0.1:8000/">home</a> page</p>
 
 </body>
 </html>
