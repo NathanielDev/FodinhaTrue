@@ -2,3 +2,4 @@ lembrando que pra os commando de connect tem q botar ponto antes
 Ex: . madeiraConnect
 also tem que todos de dentro desse repo, vou concertar isso depois (clueless)
 also se pa seria uma boa botar esses numa pasta Script na home e botar eles no path no .bashrc pra a gente poder chamar eles de qualquer lugar
+se pa vale a pena botar jm git fetch origin no script dps de connectar pra a gente n ficar loko?
