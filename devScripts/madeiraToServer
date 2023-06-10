@@ -1,0 +1,2 @@
+#!/bin/bash
+rsync -avz -e "ssh -i ~/Downloads/madeira.pem" ../FodinhaTrue/ ubuntu@ec2-3-131-28-110.us-east-2.compute.amazonaws.com:~/fodinha_dir/FodinhaTrue
