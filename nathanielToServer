@@ -1,4 +1,0 @@
-#!/bin/bash
-
-rsync -avz -e "ssh -i ~/Downloads/nathaniel.pem" ../FodinhaTrue/ ubuntu@ec2-18-221-114-31.us-east-2.compute.amazonaws.com:~/fodinha_dir/FodinhaTrue
-
